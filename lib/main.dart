@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:spotify_clone/strings.dart';
 
 void main() {
   runApp(MyApp());
@@ -59,34 +60,34 @@ class MyApp extends StatelessWidget {
                     Padding(padding: EdgeInsets.fromLTRB(0, 10, 0, 0)),
                     Divider(),
                     ListTile(
-                      title: Text('Sai Kiran Kopparthi', style: textStyle),
-                      subtitle: Text('Naga Venkata Rama Satya '),
+                      title: Text(Strings.studentFirstName, style: textStyle),
+                      subtitle: Text(Strings.studentLastName),
                       leading: Icon(
                         Icons.person, color: Colors.blue,
                       )
                     ),
                     Divider(),
                     ListTile(
-                      title: Text('Bachelor of Technology', style: textStyle),
+                      title: Text(Strings.studentDegreeName, style: textStyle),
                       leading: Icon(Icons.school, color: Colors.blue),
-                      subtitle: Text('Dept. of Information Technology')
+                      subtitle: Text(Strings.studentDeptName)
                     ),
                     Divider(),
                     ListTile(
-                      title: Text('GMR Institute of Technology', style: textStyle),
+                      title: Text(Strings.studentCollegeName, style: textStyle),
                       leading: Icon(Icons.account_balance_sharp, color: Colors.blue),
-                      subtitle: Text('Razam, Srikakulam District, AP'),
+                      subtitle: Text(Strings.studentCollegeLocation),
                     ),
                     Divider(),
                     ListTile(
-                      title: Text('+91 9381384234', style: textStyle),
-                      subtitle: Text('Phone Number'),
+                      title: Text(Strings.studentPhoneNumber, style: textStyle),
+                      subtitle: Text(Strings.studentPhoneNumberLabel),
                       leading: Icon(Icons.call, color: Colors.blue)
                     ),
                     Divider(),
                     ListTile(
-                      title: Text('18341A1224@gmrit.edu.in',style: textStyle),
-                      subtitle: Text('Email Address'),
+                      title: Text(Strings.studentEmailID,style: textStyle),
+                      subtitle: Text(Strings.studentEmailLabel),
                       leading: Icon(Icons.location_city, color: Colors.blue),
                     )
                   ],

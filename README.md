@@ -1,11 +1,14 @@
-# spotify_clone
+# Portfolio Flutter Application
 
-A new Flutter application.
+This is a application which is developed using Flutter which is a technology developed by Google.
+Flutter application works on both Android and iOS devices using only one CodeBase.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. To clone this project click on the **Code** Button on the right, and copy the URL
+2. Paste the URL in the Git Terminal and after clicking Enter, the project will be cloned to your System.
 
+## More about Flutter
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
